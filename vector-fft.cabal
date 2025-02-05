@@ -51,7 +51,7 @@ test-suite test
   hs-source-dirs:      test
   main-is:             Main.hs
   build-depends:       base
-                     , quickcheck-instances >= 0.3.13
+                     , quickcheck-instances == 0.3.13
                      , tasty
                      , tasty-quickcheck
                      , vector
